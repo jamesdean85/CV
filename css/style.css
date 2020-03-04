@@ -84,9 +84,26 @@ header a:hover{
   min-height:400px;
   /*background:url('../img/showcase4.jpg') no-repeat; background-size:cover;*/
   background:#889e81;
+  overflow: hidden;
+    background: blue;  /* fallback colour. Make sure this is just one solid colour. */
+    background: -webkit-linear-gradient(rgba(136, 158, 129, 0.8), rgba(186, 199, 167, 0.8)), url("../img/showcase4.jpg")left: -200px;
+    background: linear-gradient(rgba(136, 158, 129, 0.8), rgba(186, 199, 167, 0.76)), url("../img/showcase4.jpg"); /* The least supported option. */
   text-align:center;
   color:#e5e4cc; /*text color*/
-  rgba(229, 228, 204, 1)
+  /*rgba(229, 228, 204, 1)*/
+}
+/*header {
+    height: 600px;
+    width: 100vw;
+    background: black;
+    overflow: hidden;
+    background: #C33764;  /* fallback colour. Make sure this is just one solid colour. */
+    /*background: -webkit-linear-gradient(rgba(29, 38, 113, 0.8), rgba(195, 55, 100, 0.8)), url("https://bit.ly/2rlzaXi");
+    background: linear-gradient(rgba(29, 38, 113, 0.8), rgba(195, 55, 100, 0.8)), url("https://bit.ly/2rlzaXi"); /* The least supported option. */
+
+
+img {
+   object-fit: cover;
 }
 
 #showcase img{
